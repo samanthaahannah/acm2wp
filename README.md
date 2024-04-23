@@ -11,7 +11,7 @@ Python script to process digital library website open articles into ACM Games: R
 
 python acm2wp [input.html] [output.html] [replacements.txt]
 
-# VC Code Example Workflow
+# Visual Studio Code Example Workflow
 
 Install Visual Studio Code [![VSCode Download](https://img.shields.io/badge/-VSCode%20Download-007acc?logo=Visual+Studio+Code&logoColor=FFFFFF)](https://code.visualstudio.com/download)
 
