@@ -42,7 +42,9 @@ Different articles have different headings and issues, so replacements.txt might
 # Todo
 
 Automate copyright transfer per article
+
 Convert to wordpress plugin
+
 Auto scrape all open articles in a journal issue
 
 
