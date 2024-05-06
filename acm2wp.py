@@ -4,7 +4,7 @@ import re
 
 def replace_strings_in_file(input_file_path, output_file_path, replacements):
     # Open the file and read the content
-    with open(input_file_path, encoding='utf-8') as file:
+    with open(input_file_path, mode='r', encoding='utf-8') as file:
         content = file.read()
 
     # Iterate over the replacements and replace them
@@ -12,12 +12,12 @@ def replace_strings_in_file(input_file_path, output_file_path, replacements):
         content = re.sub(old, new, content)
 
     # Write the modified content to the new file
-    with open(output_file_path, 'w') as file:
+    with open(output_file_path, mode='w', encoding='utf-8') as file:
         file.write(content)
 
 def load_replacements(file_path):
     # Load the replacements from the file
-    with open(file_path, encoding='utf-8') as file:
+    with open(file_path, mode='r', encoding='utf-8') as file:
         lines = file.readlines()
 
     # Create a dictionary from the lines
